@@ -23,7 +23,7 @@ task createJar(type: Jar) {
 # Run class
 
 ````
-task executeNespaRedWinLogin(type:JavaExec) {
+task executeJavaApplication(type:JavaExec) {
     main = "com.example.MainFxLauncher"
     classpath = sourceSets.main.runtimeClasspath
     // args '--version'
