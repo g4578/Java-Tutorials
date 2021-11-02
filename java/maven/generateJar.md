@@ -1,7 +1,7 @@
 # Maven generate Jar
 
 ````
-`<plugin>
+<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-dependency-plugin</artifactId>
     <executions>
